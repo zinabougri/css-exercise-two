@@ -1,6 +1,8 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: ##EFEBC7;
+  color: #1F1F56;
+  font-size: 16px;
+  line-height: 1.2em;
 }
 
 nav {
@@ -42,6 +44,14 @@ li {
   padding: 30px;
 }
 
+a {
+  text-decoration: none;
+  link {color: #111130;}
+  visited {color: #24244c;}
+  hover {color: #8989c8;}
+  active {color: #43438e;}
+}
+
 article {
   padding-top: 100px;
 }
@@ -49,4 +59,20 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+figcaption {
+  font-size: .75em;
+  font-style: italic;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-style: italic;
 }
