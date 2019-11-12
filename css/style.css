@@ -51,11 +51,12 @@ li {
 
 a {
   text-decoration: none;
-  link {color: #111130;}
-  visited {color: #24244c;}
-  hover {color: #8989c8;}
-  active {color: #43438e;}
 }
+
+a:link {color: #111130;}
+a:visited {color: #24244c;}
+a:hover {color: #8989c8;}
+a:active {color: #43438e;}
 
 article {
   padding-top: 100px;
